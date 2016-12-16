@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" media="screen and (max-width: 360px)" href="portrait.css">
+  <link rel="stylesheet" type="text/css" media="screen and (min-width: 361px) and (max-width: 480px)" href="landscape.css">
+  <link rel="stylesheet" type="text/css" media="screen and (min-width: 481px)" href="desktop.css"> 
+  <style>
+    header {
+      text-align: center;
+      background: url('http://www.pixelstalk.net/wp-content/uploads/2016/10/Brooklyn-hd-background-download-desktop-768x491.jpg');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+	  text-shadow: 2px 2px #000000;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+	  .round {
+	  height: 150px;
+	  width: 150px;
+	  border-radius: 50%;
+    }
+	h3 {
+	font-size: 12px;
+	}
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAR9AAAAJDdjMDY2NjdkLTlmZDctNGJjZC05NjI5LTg2MDZmNzU5ZWQ0MQ.jpg" class="round">
+    <h1>Edwin Chiu's Blog</h1>
+    <ul>
+	<li><a href="Home.html">Home</a></li>
+      <li><a href="AboutMe.html">About Me</a></li>
+      <li><a href="BestMoments.html">Best Moments</a></li>
+      <li><a href="WorstMoments.html">Worst Moments</a></li>
+	  <li><a href="RandomMoments.html">Random Moments</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>NEVER LIE TO YOUR PARENTS!</h2>
+	<h3>	12-13-2016 </h3>
+    <p>It was a friday and the school day just ended. So I did what most kids did after a friday. I went out to hang out with some friends. After a couple of hours, me and my boys landed 
+	in Wendy's. My mom started calling me asking if I was coming home. I kept telling her I was waiting for the train but I was actually talking with my friend at Wendy's.
+	Ironically, my mom's name is Wendy also. When I got home, I literally got my butt whooped. Not the best experience but I learned never to lie again.</p>
+	<button>Like</button>
+<!-- Begin Comments JavaScript Code --><script type="text/javascript" async>function ajaxpath_58520dde483a1(url){return window.location.href == '' ? url : url.replace('&s=','&s=' + escape(window.location.href));}(function(){document.write('<div id="fcs_div_58520dde483a1"><a title="free comment script" href="http://www.freecommentscript.com">&nbsp;&nbsp;<b>Free HTML User Comments</b>...</a></div>');fcs_58520dde483a1=document.createElement('script');fcs_58520dde483a1.type="text/javascript";fcs_58520dde483a1.src=ajaxpath_58520dde483a1((document.location.protocol=="https:"?"https:":"http:")+"//www.freecommentscript.com/GetComments2.php?p=58520dde483a1&s=#!58520dde483a1");setTimeout("document.getElementById('fcs_div_58520dde483a1').appendChild(fcs_58520dde483a1)",1);})();</script><noscript><div><a href="http://www.freecommentscript.com" title="free html user comment box">Free Comment Script</a></div></noscript><!-- End Comments JavaScript Code -->  
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
